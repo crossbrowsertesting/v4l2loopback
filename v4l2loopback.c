@@ -157,7 +157,7 @@ static inline void v4l2l_get_timestamp(struct timeval *tv) {
 
 /* maximum number of v4l2loopback devices that can be created */
 #ifndef MAX_DEVICES
-# define MAX_DEVICES 8
+# define MAX_DEVICES 64
 #endif
 
 /* when a producer is considered to have gone stale */
